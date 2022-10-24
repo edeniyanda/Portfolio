@@ -1,0 +1,302 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 2em;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.myhead {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/bg.jpg);
+    background-position: top;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8% 8% 4%;
+}
+.logo {
+    color: white;
+    letter-spacing: 0px;
+    font-size: 20px;  
+    cursor: pointer;
+    font-weight: bolder;
+}
+.io {
+    color: #f9004d;
+}
+.myhead ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style-type: none;
+}
+.myhead ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: thin;
+}
+.myhead ul li a:hover {
+    color: #f9004d;
+    transition: .5s;
+}
+.buttn {
+    background-color: #f9004d;
+    font-weight: thin;
+    border-radius: 20px;
+    padding: 8px 15px ;
+    text-decoration: none;
+    transition: .5s;   
+}
+.buttn:hover {
+    transform: scale(1.1);
+}
+.content {
+      position: absolute;
+      top: 40%;
+      left: 4%;
+      transform: translateY(-50);
+}
+.myname {
+    margin: 0px 0px 20px 0px;
+    font-size: 70px;
+}
+.greetings {
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.info {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.theform form {
+    width: 380px; 
+    max-width: 100%;
+    position: relative;
+}
+.theform form input:first-child{
+    display: inline-block;
+    width: 100% ;
+    padding: 14px 130px 14px 15px ;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+    color: #000;
+}
+.theform form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 30px ;
+    background-color: #f9004d;
+    top: 6px;
+    right: 20px;
+    box-shadow:0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 20px;
+}
+.about-me {
+    
+    width: 550px;
+    bottom: 20px;
+
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me h2 {
+    font-size: 70px;
+}
+.about-me h5 {
+    letter-spacing: 2px;
+    font-weight: 80;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.about-me p {
+    color: #fcfc;
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+.main button {
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    font-weight: thin;
+    padding: 13px 30px;
+    border-radius: 20px;
+}
+.main button a {
+    text-decoration: none;
+}
+.main button:hover{
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px;
+}
+
+.title h2 {
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+ }
+ 
+ .card {
+     height: 400px;
+     width: 335px;
+     padding: 20px 35px;
+     background: #191919;
+     border-radius: 20px;
+     margin: 15px;
+     position: relative;
+     overflow: hidden;
+     text-align: center;
+ }
+
+.ilogo {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+ }
+
+ h5 {
+    font-size: 23px;
+    margin-bottom: 15px;
+ }
+.pra {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    
+}
+
+.btn {
+    position: relative;
+    text-decoration: none;
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    font-weight: thin;
+    top: 15px;
+    padding: 13px 30px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+.contact {
+    width: 100%;
+    height: 200px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+
+}
+.button-two {
+    position: relative;
+    text-decoration: none;
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    font-weight: thin;
+    top: 15px;
+    padding: 13px 30px;
+    border-radius: 20px;
+}
+
+.button-two:hover{
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+    align-content: center;
+    justify-items: space-between;
+    
+}
+.social a {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px 10px; 
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 50px;
+}
+
